@@ -11,4 +11,6 @@ del df["Distance.1"]
 del df["Mass.1"]
 del df["Radius.1"]
 
+df.dropna()
+
 df.to_csv("final_data.csv")
